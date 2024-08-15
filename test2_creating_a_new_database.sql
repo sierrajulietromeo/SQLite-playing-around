@@ -1,0 +1,9 @@
+
+CREATE TABLE IF NOT EXISTS Products(
+  ProductId INTEGER PRIMARY KEY AUTOINCREMENT, 
+  ProductName TEXT NOT NULL,
+  Price NUMERIC
+);
+
+.tables
+
